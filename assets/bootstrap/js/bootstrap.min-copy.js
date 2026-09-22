@@ -159,12 +159,12 @@ function switchProtanMode() {
   /*  localStorage.setItem('protan',isProtanActive);*/
 
 if (isProtanActive) {
-        nameChange.src = 'assets/images/name-protan.png'; // Change to cat image path
+        nameChange.src = 'assets/images/headerUXprot.png'; // Change to cat image path
         nameChange.alt = 'name in protan';
         bannerChange.src = 'assets/images/banner-protan.png';
         bannerChange.alt = 'colorful banner with a yellow to blue gradient';
     } else {
-        nameChange.src = 'assets/images/name-colors.png'; // Change back to dog image path
+        nameChange.src = 'assets/images/headerUXn.png'; // Change back to dog image path
         nameChange.alt = 'name with colors';
         bannerChange.src = 'asset/images/banner-1.png'
         bannerChange.alt = 'colorful banner with pink,orange, yellow, blue, and indigo gradient'
@@ -190,12 +190,12 @@ function switchTritanMode() {
     const isTritanActive = body.classList.toggle('tritan');
    /* localStorage.setItem('tritan',isTritanActive);*/
     if (isTritanActive) {
-        nameChange.src = 'assets/images/name-tritan.png'; // Change to cat image path
+        nameChange.src = 'assets/images/headerUXtrit.png'; // Change to cat image path
         nameChange.alt = 'name in deuter';
         bannerChange.src = 'assets/images/banner-tritan.png';
         bannerChange.alt = 'colorful banner with a red to green gradient';
     } else {
-        nameChange.src = 'assets/images/name-colors.png'; // Change back to dog image path
+        nameChange.src = 'assets/images/headerUXn.png'; // Change back to dog image path
         nameChange.alt = 'name with colors';
         bannerChange.src = 'asset/images/banner-1.png'
         bannerChange.alt = 'colorful banner with pink,orange, yellow, blue, and indigo gradient'
