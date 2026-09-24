@@ -3493,6 +3493,15 @@ body.off-canvas-sidebar-open .layout {
         display: none;
     }
 }
+.row-image {
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url("assets/images/headerUXn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
 .bb {
     -webkit-transform: translateY(-100px);
