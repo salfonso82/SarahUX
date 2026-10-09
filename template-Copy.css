@@ -38,10 +38,9 @@ img {
 }
 
 .name-color{
-    max-width: 75%;
+    max-width: 1--%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left;
     background-color: transparent;
     transition:background-color 0.3s ease;
 }
