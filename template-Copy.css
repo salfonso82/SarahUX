@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 /*! -----------------------------------------------------------------
 [Master Stylesheet]
@@ -38,7 +38,10 @@ img {
 }
 
 .name-color{
-    max-width: 50%;
+    max-width: 75%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
     background-color: transparent;
     transition:background-color 0.3s ease;
 }
