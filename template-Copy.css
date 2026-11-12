@@ -37,11 +37,11 @@ img {
     vertical-align: ;
 }
 
-.name-color{
+/*!.name-color{
     max-width: 100%;
     background-color: transparent;
     transition:background-color 0.3s ease;
-}
+}*/
 
 iframe {
     border: 0;
